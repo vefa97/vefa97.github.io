@@ -1,0 +1,905 @@
+ .full{
+ 	width: 100%;
+ }
+ .normal{
+ 	width: 1000px;
+    margin:0 auto;
+ }
+ .verticalSpacer{
+	height:20px;
+}
+.sectionPadding{
+	margin-top: 50px;
+}
+.clear{
+	clear: both;
+}
+.row{
+  max-width: 100%;
+}
+.pullRight{
+  float: right;
+}
+.pullLeft{
+  float: left;
+}
+.textCenter{
+  text-align: center;
+}
+.inline{
+  display: inline-block;
+}
+
+.col-1{
+	width:8.333%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.33%;
+}
+.col-5{
+	width:41.66%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.33%;
+}
+.col-8{
+	width:66.66%;
+}
+.col-9{
+	width:75%;
+}
+.col-10{
+	width:83.33%;
+}
+.col-11{
+	width:91.66%;
+}
+.col-12{
+	width:100%;
+}
+
+
+ #header{
+ 	height: 800px;
+ 	background: url(image/bg1.jpg) no-repeat center center;
+ 	background-size: cover;
+ 	position:relative;
+
+ }
+  #header .logo1 img{
+  	position: absolute;
+  	left: 10%;
+  	top: 30px;
+  }
+  #header .iconPhone i{
+     font-size: 30px;
+     border-radius: 30px;
+     background:#01A9DB;
+     color: white;
+     text-align: center;
+     position: absolute;
+     left: 50%;
+     top:30px;
+     height: 40px;
+     width: 50px;
+     border-radius: 30px;
+     padding-top: 10px;
+  }
+   #header>.iconPhone>ul>li:nth-child(2){
+   	position: absolute;
+   	left: 55%;
+   	top: 35px;
+   }
+    #header>.iconPhone>ul>li:nth-child(3){
+   	position: absolute;
+   	left: 55%;
+   	top: 60px;
+   }
+    #header>.iconPhone>ul>li:nth-child(2) a{
+   	color: white;
+   	text-decoration: none;
+   	font-size: 18px;
+   	font-weight: bold;
+   }
+   #header>.iconPhone>ul>li:nth-child(3) a{
+   	color: white;
+   	text-decoration: none;
+   	font-size: 18px;
+   }
+   #header .iconLocation i{
+     font-size: 30px;
+     border-radius: 30px;
+     background:#01A9DB;
+     color: white;
+     text-align: center;
+     position: absolute;
+     left: 70%;
+     top:30px;
+     height: 40px;
+     width: 50px;
+     border-radius: 30px;
+     padding-top: 10px;
+  }
+   #header>.iconLocation>ul>li:nth-child(2){
+   	position: absolute;
+   	left: 75%;
+   	top: 35px;
+   }
+    #header>.iconLocation>ul>li:nth-child(3){
+   	position: absolute;
+   	left: 75%;
+   	top: 60px;
+   }
+     #header>.iconLocation>ul>li:nth-child(2) a{
+   	color: white;
+   	text-decoration: none;
+   	font-size: 18px;
+   	font-weight: bold;
+   }
+   #header>.iconLocation>ul>li:nth-child(3) a{
+   	color: white;
+   	text-decoration: none;
+   	font-size: 18px;
+   }
+   #header .col-6{
+       position: relative;
+       top: 26%;
+       left: 10%;
+       height: 550px;
+   }
+
+    #header .col-6 h1{
+       color: white;
+       font-size:35px;
+       line-height: 42px;
+       padding-top:2%;
+
+   }
+     #header .col-6 h3{
+       color: white;
+       font-size:22px;
+       padding-top: 3%;
+   }
+
+   #header .col-6  button{
+   	   width: 250px;
+   	   height: 50px;
+   	   background-color: #FE642E;
+   	   border-radius:50px;
+   	   color: white;
+   	   font-weight: bold;
+   	   margin-top: 4%;
+   	   border: none;
+       transition: all 2s ease;
+
+   }
+    #header .col-3{
+       background-color: rgba(0,0,0,.3);
+       position: absolute;
+       left: 65%;
+       top: 20%;
+       border-radius: 8px;
+       height: 480px;
+   }
+    #header .col-3 h1{
+    	font-size: 20px;
+    	color: white;
+    	font-weight: bold;
+    	padding: 25px;
+    	box-sizing: border-box;
+    }
+    #header .col-3 input{
+    	width: 280px;
+    	height: 50px;
+    	border-radius: 10px;
+    	margin:25px;
+    	margin-top: 10px !important;
+    }
+    #header .col-3 select{
+    	width: 285px;
+    	height:55px;
+    	border-radius: 10px;
+    	margin:25px;
+    	margin-top: 10px !important;
+    }
+    #header .col-3 button{
+       width: 250px;
+   	   height: 50px;
+   	   background-color: #FE642E;
+   	   border-radius:50px;
+   	   color: white;
+   	   font-weight: bold;
+   	   margin-top: 4%;
+   	   border: none;
+   	   margin-left: 7%;
+       transition: all 1s ease;
+    }
+    
+     #header .col-3 .name{
+    	position: absolute;
+    	left: 7%;
+    	top: 12%;
+    	color: lightgray;
+    	font-weight: bold;
+    }
+   
+    #header .col-3 .email{
+    	position: absolute;
+    	left: 7%;
+    	top: 32%;
+    	color: lightgray;
+    	font-weight: bold;
+    }
+        #header .col-3 .doctor{
+    	position: absolute;
+    	left: 7%;
+    	top: 50%;
+    	color: lightgray;
+    	font-weight: bold;
+    }
+    #header button:hover{
+      background-color: #01A9DB;
+    }
+
+    
+
+
+
+
+
+
+  #elaqe{
+  	height: 510px;
+  
+  }
+  #elaqe .col-5{
+       
+       background-color: #F1F3F9;
+       
+       margin-left: 6%;
+    margin-top: 25px;
+  }
+   #elaqe .content {
+    
+
+   }
+   .content .inlineDiv{
+    width: 60px;
+    height: 200px;
+    background-color: #01A9DB;
+   }
+   .content .inlineDiv p{
+        transform:rotate(270deg);
+            margin-top: 110px;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;    
+   }
+   .elaqeUl1{
+   padding-top: 20px;
+   margin-left: -50px;
+   }
+
+   .elaqeUl1 li{
+    line-height: 20px;
+   }
+    .elaqeUl2 li{
+    line-height: 20px;
+   }
+   .elaqeUl2{
+    padding: 60px;
+    margin-top: 20px;
+
+   }
+     #elaqe span{
+       margin-top: 20px;
+      color:  #DF7401;
+       font-size: 50px;
+       margin-left: 50px;
+     }
+     .elaqeP1{
+       margin-top: 20px;
+       margin-left: 20%;
+       width: 390px;
+     }
+     .callUs h3{
+      font-size: 25px;
+      font-weight: bold;
+
+     }
+     .callUs{
+      margin-top: 20px;
+      margin-left: 20%;
+     }
+
+
+    
+
+  #information{
+    height: 280px;
+  
+  }
+   [class*="col-"]
+{
+  float: left;
+  box-sizing: border-box;
+ /*  padding: 10px; */
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+#information hr{
+  width: 70px;
+  background-color:orange;
+}
+#information h2{
+  color: #464646;
+font-size: 35px;
+font-weight: 800;
+position: relative;
+text-transform: uppercase;
+}
+ #information hr{
+  display: block;
+    height: 2px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    width: 60px;
+}
+
+
+ #information .icon{
+  color: red;
+display: block;
+
+}
+
+ #information .icon i{
+border-radius: 50%;
+color: #ffffff;
+font-size: 30px;
+height: 50px;
+line-height: 50px;
+width: 50px;
+background: #DA593F;
+text-align: center;
+margin-top: 17px;
+float: left;
+margin-right: 12px;
+
+
+
+}
+
+ #information h3{
+      font-size: 28px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: bold;
+
+}
+
+ #information span{
+  color: #323f52;
+font-size: 12px;
+
+
+}
+
+ #information .content{
+  background: #f2f3f3;
+  padding: 25px;
+
+}
+  #information .col-4{
+      padding: 10px;
+    }
+
+
+  #services{
+  	height: 750px;
+  	background-color: #F1F3F9;
+    position: relative;
+  }
+
+   #services h3{
+      font-size: 28px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: bold;
+
+}
+#services h2{
+  color: #464646;
+font-size: 35px;
+font-weight: 800;
+position: relative;
+text-transform: uppercase;
+padding-top: 70px;
+}
+ #services hr{
+  display: block;
+    height: 2px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    width: 60px;
+    background-color: orange;
+}
+
+#services  .content{
+  background: #f2f3f3;
+  position: relative;
+
+
+}
+#services p{
+      font-size: 20px;
+      color: gray;
+}
+#services  .content img{
+  width: 100%;
+}
+#services .col-3{
+  margin-left: 5%;
+  margin-top: 50px;
+}
+#services  .content button{
+  position: absolute;
+      bottom: 21px;
+    left: 43%;
+    width: 235px;
+    height: 46px;
+    background-color: #01A9DB;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+#services .endButton button{
+   position: absolute;
+     bottom: 90px;
+    left: 43%;
+    width: 174px;
+    height: 40px;
+    background-color: #f57e57;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+  #prices{
+  	height: 476px;
+  	
+    position: relative;
+  }
+  
+    #prices .pricesImage img{
+      width: 100%;
+    }
+    #prices .pricesImage .col-4{
+     
+     
+      position: absolute;
+      top: 130px;
+      left: 14%;
+      padding: 15px;
+
+    } 
+
+   
+      #prices  .qualityServices h1{
+       font-size: 35px;
+       color: white;
+       font-weight: bold;
+       padding: 10px;
+
+      }
+       #prices  .qualityServices p{
+       font-size: 15px;
+       color: white;
+       padding: 10px;
+
+      }
+         #prices  .qualityServices button{
+
+          width: 170px;
+          height: 40px;
+          background-color: #f57e57;
+          border-radius: 20px;
+          margin-left: 5px;
+          margin-top: 20px;
+          color: white;
+          font-weight: bold;
+
+         }
+
+           #prices  .container h2{
+              color: #464646;
+            font-size: 35px;
+          font-weight: 800;
+          position: relative;
+          text-transform: uppercase;
+          padding: 20px;
+          padding-top: 85px;
+           }
+            #prices .container hr{
+        display: block;
+          height: 2px;
+          margin-left: 20px;
+          width: 60px;
+          background-color: orange;
+                }
+           #prices .icon i{
+    
+        color: #01A9DB;
+        font-size: 30px;
+        height: 50px;
+       line-height: 50px;
+        width: 50px;
+         margin-top: 20px;
+        text-align: center;
+       margin-left: 15px;
+      }
+
+
+      .pricesSpan{
+        width: 400px;
+        margin-left: 20px;
+      
+        margin-top: 15px;
+      }
+          #prices span{
+            font-size: 24px;
+            color: gray;
+            width: 60px;
+          }
+          #prices .icon2{
+            height: 50px;
+            width: 50px;
+            
+            margin-top: 20px;
+            margin-left: 25px;
+            display: inline-block;
+
+
+          }
+           #prices .icon2 img{
+           width: 100%;
+           border-radius: 100%;
+          }
+           .patient{
+           
+          
+            display: inline-block;
+            margin-left: 12px;
+
+
+          }
+          .patient h1{
+            font-size: 25px;
+            color: #01A9DB;
+            font-weight: bold;
+            padding:2px;
+
+
+          }
+           .patient p{
+            font-size: 15px;
+            color: gray;
+             padding:4px;      
+          }
+
+
+
+
+#team{
+    height: 600px;
+    background-color: #F1F3F9;
+   }
+   
+   #team .row .col-4 {
+    padding: 50px;
+   
+   }
+   #team h2{
+  color: #464646;
+font-size: 35px;
+font-weight: 800;
+position: relative;
+text-transform: uppercase;
+padding-top: 90px;
+}
+ #team hr{
+  display: block;
+    height: 4px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    width: 70px;
+      background-color: #f57e57;
+}
+#team .teamIcon1 img{
+  width: 30%;
+  
+}
+#team  h3{
+  font-size: 30px; 
+  color: #00BFFF;
+  font-weight: bold;
+ padding-left: 10px;
+   padding-top: 5px;
+}
+
+
+#team  p{
+  font-size: 15px;
+  clear: both;
+  color: gray;
+  padding-left: 10px;
+  padding-top: 8px;
+
+}
+.teamUl{
+  display: inline-block;
+
+}
+.teamUl li{
+    display: inline-block;
+}
+.teamUl li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+.teamUl li i{
+  font-size: 25px;
+  color: #00BFFF;
+  line-height: 60px;
+}
+#team span{
+  color: gray;
+
+  
+}
+
+#team .button1{
+   background-color: #f57e57;
+   width: 150px;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 18px;
+}
+#team .button2{
+   background-color: #f57e57;
+   width: 150px;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 18px;
+}
+#team .button3{
+   background-color: #f57e57;
+   width: 150px;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 7px;
+}
+
+
+
+
+  #news{
+  	height: 750px;
+  	
+    padding: 30px;
+
+  }
+
+   #news .col-3{
+    padding: 10px;
+   }
+    #news h2{
+  color: #464646;
+font-size: 35px;
+font-weight: 800;
+position: relative;
+text-transform: uppercase;
+padding-top: 90px;
+}
+ #news hr{
+  display: block;
+    height: 4px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    width: 70px;
+      background-color: #f57e57;
+}
+.newsIcon1 img{
+  width: 100%;
+}
+#news  h3{
+  font-size: 30px; 
+  color: #01A9DB;
+  font-weight: bold;
+
+   padding-top: 15px;
+
+}
+  .newsUl{
+  display: inline-block;
+  padding-top: 10px;
+ 
+}
+.newsUl li{
+    display: inline-block;
+
+}
+.newsUl li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+
+
+}
+
+.newsUl>li>a:nth-child(1){
+  color: gray;
+}
+ 
+#news span{
+ padding-top:15px;
+ color: gray;
+ display: block;
+ line-height: 18px;
+}
+#news button{
+  margin-top: 15px;
+  height:30px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  color: gray;
+  background-color: transparent;
+}
+ #news .newsEndButton button{
+  background-color: orange;
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  margin-top: 80px;
+  margin-left: 16%;
+ }
+
+
+
+  #help{
+  	height: 500px;
+    position: relative;
+     background:url(image/bg3.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+  }
+  
+   
+
+  #help  .helpOverlay h2{
+  color: white;
+font-size: 45px;
+font-weight: 800;
+position: relative;
+text-transform: uppercase;
+padding: 30px;
+
+  }
+
+  #help  .helpOverlay p{
+      color: white;
+      font-size: 17px;
+   }
+
+  #help  .helpOverlay button{
+      width: 200px;
+      background-color:  #f57e57;
+      height: 40px;
+      border-radius: 25px;
+      margin-left: 40%;
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+  }
+
+ .helpOverlay{
+ 
+  position: absolute;
+  width:100%;
+  height:400px;
+  margin:0 auto;
+  
+  top: 100px;
+  left: 0px;
+  
+  padding:50px;
+  box-sizing: border-box;
+  background-color: rgba(45, 105, 222, .3);
+  
+    }
+    
+
+
+
+  #footer{
+  	height: 165px;
+  	background-color:lightblue;
+  }
+  .footerImage{
+    height: 70px;
+    width:150px;
+    margin-top: 70px;
+  }
+  #footer .footerImage img{
+    width: 100%;
+
+  }
+  #footer p{
+    display: block;
+    margin-top: -60px;
+    color: gray;
+    font-size: 18px;
+    margin-left: 25px;
+  }
+  #footer .footerUl{
+     float: right;
+  } 
+  #footer .footerUl li{
+     float: left;
+  } 
+  #footer .footerUl li i{
+     padding: 15px 15px;
+     background-color: white;
+     border-radius: 100%;
+     margin-left: 10px;
+     margin-top: -27px;
+    display: block;
+    color: gray;
+    font-size: 18px;
+    transition: all 2s ease;
+
+
+  } 
+  #footer .footerUl i:hover{
+    background-color: #F79F81;
+  }
